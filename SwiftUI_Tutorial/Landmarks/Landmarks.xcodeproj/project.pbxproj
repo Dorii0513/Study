@@ -12,6 +12,7 @@
 		B3307862284F88AC00E5EE6B /* LandmarksTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3307861284F88AC00E5EE6B /* LandmarksTests.swift */; };
 		B330786C284F88AD00E5EE6B /* LandmarksUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B330786B284F88AD00E5EE6B /* LandmarksUITests.swift */; };
 		B330786E284F88AD00E5EE6B /* LandmarksUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B330786D284F88AD00E5EE6B /* LandmarksUITestsLaunchTests.swift */; };
+		B3C5CD7028524567009C97B8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3307852284F88A900E5EE6B /* ContentView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -269,6 +270,7 @@
 			files = (
 				B330786E284F88AD00E5EE6B /* LandmarksUITestsLaunchTests.swift in Sources */,
 				B330786C284F88AD00E5EE6B /* LandmarksUITests.swift in Sources */,
+				B3C5CD7028524567009C97B8 /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
