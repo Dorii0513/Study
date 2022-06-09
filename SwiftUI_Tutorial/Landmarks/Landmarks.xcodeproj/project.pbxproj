@@ -7,9 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		B3307851284F88A900E5EE6B /* LandmarksApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3307850284F88A900E5EE6B /* LandmarksApp.swift */; };
 		B3307853284F88A900E5EE6B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3307852284F88A900E5EE6B /* ContentView.swift */; };
-		B3307855284F88AC00E5EE6B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B3307854284F88AC00E5EE6B /* Assets.xcassets */; };
 		B3307858284F88AC00E5EE6B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B3307857284F88AC00E5EE6B /* Preview Assets.xcassets */; };
 		B3307862284F88AC00E5EE6B /* LandmarksTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3307861284F88AC00E5EE6B /* LandmarksTests.swift */; };
 		B330786C284F88AD00E5EE6B /* LandmarksUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B330786B284F88AD00E5EE6B /* LandmarksUITests.swift */; };
@@ -35,9 +33,7 @@
 
 /* Begin PBXFileReference section */
 		B330784D284F88A900E5EE6B /* Landmarks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Landmarks.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		B3307850284F88A900E5EE6B /* LandmarksApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarksApp.swift; sourceTree = "<group>"; };
-		B3307852284F88A900E5EE6B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		B3307854284F88AC00E5EE6B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B3307852284F88A900E5EE6B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ContentView.swift; path = Landmarks/ContentView.swift; sourceTree = "<group>"; };
 		B3307857284F88AC00E5EE6B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		B330785D284F88AC00E5EE6B /* LandmarksTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LandmarksTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B3307861284F88AC00E5EE6B /* LandmarksTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarksTests.swift; sourceTree = "<group>"; };
@@ -94,12 +90,10 @@
 		B330784F284F88A900E5EE6B /* Landmarks */ = {
 			isa = PBXGroup;
 			children = (
-				B3307850284F88A900E5EE6B /* LandmarksApp.swift */,
 				B3307852284F88A900E5EE6B /* ContentView.swift */,
-				B3307854284F88AC00E5EE6B /* Assets.xcassets */,
 				B3307856284F88AC00E5EE6B /* Preview Content */,
 			);
-			path = Landmarks;
+			name = Landmarks;
 			sourceTree = "<group>";
 		};
 		B3307856284F88AC00E5EE6B /* Preview Content */ = {
@@ -107,7 +101,8 @@
 			children = (
 				B3307857284F88AC00E5EE6B /* Preview Assets.xcassets */,
 			);
-			path = "Preview Content";
+			name = "Preview Content";
+			path = "Landmarks/Preview Content";
 			sourceTree = "<group>";
 		};
 		B3307860284F88AC00E5EE6B /* LandmarksTests */ = {
@@ -232,7 +227,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				B3307858284F88AC00E5EE6B /* Preview Assets.xcassets in Resources */,
-				B3307855284F88AC00E5EE6B /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,7 +252,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				B3307853284F88A900E5EE6B /* ContentView.swift in Sources */,
-				B3307851284F88A900E5EE6B /* LandmarksApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
