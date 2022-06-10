@@ -2,7 +2,7 @@
 //  LandmarksUITests.swift
 //  LandmarksUITests
 //
-//  Created by 김예림 on 2022/06/07.
+//  Created by 김예림 on 2022/06/11.
 //
 
 import XCTest
