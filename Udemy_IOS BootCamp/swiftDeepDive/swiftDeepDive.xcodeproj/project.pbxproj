@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		B3551D622860CDE3006CA345 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3551D612860CDE3006CA345 /* main.swift */; };
+		B33AD05B28682B2A00FBBC67 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = B33AD05A28682B2A00FBBC67 /* main.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -23,8 +23,9 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		B33AD05A28682B2A00FBBC67 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		B3551D5E2860CDE3006CA345 /* swiftDeepDive */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = swiftDeepDive; sourceTree = BUILT_PRODUCTS_DIR; };
-		B3551D612860CDE3006CA345 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		B3551D612860CDE3006CA345 /* _functions and scope.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_functions and scope.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +58,8 @@
 		B3551D602860CDE3006CA345 /* swiftDeepDive */ = {
 			isa = PBXGroup;
 			children = (
-				B3551D612860CDE3006CA345 /* main.swift */,
+				B3551D612860CDE3006CA345 /* _functions and scope.swift */,
+				B33AD05A28682B2A00FBBC67 /* main.swift */,
 			);
 			path = swiftDeepDive;
 			sourceTree = "<group>";
@@ -94,6 +96,7 @@
 				TargetAttributes = {
 					B3551D5D2860CDE3006CA345 = {
 						CreatedOnToolsVersion = 13.4.1;
+						LastSwiftMigration = 1340;
 					};
 				};
 			};
@@ -120,7 +123,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B3551D622860CDE3006CA345 /* main.swift in Sources */,
+				B33AD05B28682B2A00FBBC67 /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -243,8 +246,15 @@
 		B3551D662860CDE3006CA345 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
@@ -252,7 +262,13 @@
 		B3551D672860CDE3006CA345 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 			};
