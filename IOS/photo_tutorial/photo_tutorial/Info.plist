@@ -19,6 +19,12 @@
 					<string>Main</string>
 				</dict>
 			</array>
+            <key>NSCameraUsageDescription</key>
+            <string>yourWording</string>
+            <key>NSPhotoLibraryUsageDescription</key>
+            <string>yourWording</string>
+            <key>NSMicrophoneUsageDescription</key>
+            <string>yourWording</string>
 		</dict>
 	</dict>
 </dict>

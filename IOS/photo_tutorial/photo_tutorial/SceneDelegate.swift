@@ -2,7 +2,7 @@
 //  SceneDelegate.swift
 //  photo_tutorial
 //
-//  Created by 김예림 on 2022/07/19.
+//  Created by 김예림 on 2022/07/22.
 //
 
 import UIKit
