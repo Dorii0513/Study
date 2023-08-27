@@ -15,6 +15,7 @@
 		B312473D2A8E05B4009E59D7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B312473C2A8E05B4009E59D7 /* Assets.xcassets */; };
 		B31247402A8E05B4009E59D7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B312473E2A8E05B4009E59D7 /* LaunchScreen.storyboard */; };
 		B3270EE62A90B40D008FE708 /* canvas.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3270EE52A90B40D008FE708 /* canvas.swift */; };
+		B3EA49922A96708E00E9437C /* ButtonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3EA49912A96708E00E9437C /* ButtonViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		B312473F2A8E05B4009E59D7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B31247412A8E05B4009E59D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B3270EE52A90B40D008FE708 /* canvas.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = canvas.swift; sourceTree = "<group>"; };
+		B3EA49912A96708E00E9437C /* ButtonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +78,7 @@
 		B3270EE72A90B471008FE708 /* controller */ = {
 			isa = PBXGroup;
 			children = (
+				B3EA49912A96708E00E9437C /* ButtonViewController.swift */,
 				B31247342A8E05B1009E59D7 /* ViewController.swift */,
 			);
 			path = controller;
@@ -164,6 +167,7 @@
 				B31247312A8E05B1009E59D7 /* AppDelegate.swift in Sources */,
 				B31247332A8E05B1009E59D7 /* SceneDelegate.swift in Sources */,
 				B312473B2A8E05B1009E59D7 /* canvas.xcdatamodeld in Sources */,
+				B3EA49922A96708E00E9437C /* ButtonViewController.swift in Sources */,
 				B3270EE62A90B40D008FE708 /* canvas.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

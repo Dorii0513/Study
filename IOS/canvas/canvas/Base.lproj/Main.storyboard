@@ -15,30 +15,13 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="428" height="926"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ha3-16-7SC">
-                                <rect key="frame" x="322" y="857" width="86" height="35"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="Undo" buttonSize="medium"/>
-                                <connections>
-                                    <action selector="undoButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="nsu-WD-6up"/>
-                                    <action selector="undoButton:" destination="Cac-Wg-Wuf" eventType="touchUpInside" id="us2-sM-ydg"/>
-                                </connections>
-                            </button>
-                        </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
-                    <connections>
-                        <outlet property="undoButtom" destination="ha3-16-7SC" id="P7G-8A-HHp"/>
-                        <outlet property="undoButton" destination="ha3-16-7SC" id="CcV-pH-7uT"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
-                <exit id="Cac-Wg-Wuf" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
-            <point key="canvasLocation" x="-16" y="29"/>
+            <point key="canvasLocation" x="-16.822429906542055" y="28.509719222462206"/>
         </scene>
     </scenes>
     <resources>
