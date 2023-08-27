@@ -15,6 +15,7 @@
 		B312473D2A8E05B4009E59D7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B312473C2A8E05B4009E59D7 /* Assets.xcassets */; };
 		B31247402A8E05B4009E59D7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B312473E2A8E05B4009E59D7 /* LaunchScreen.storyboard */; };
 		B3270EE62A90B40D008FE708 /* canvas.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3270EE52A90B40D008FE708 /* canvas.swift */; };
+		B337ABA52A9B41D100989C29 /* Line.swift in Sources */ = {isa = PBXBuildFile; fileRef = B337ABA42A9B41D100989C29 /* Line.swift */; };
 		B3EA49922A96708E00E9437C /* ButtonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3EA49912A96708E00E9437C /* ButtonViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -29,6 +30,7 @@
 		B312473F2A8E05B4009E59D7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B31247412A8E05B4009E59D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B3270EE52A90B40D008FE708 /* canvas.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = canvas.swift; sourceTree = "<group>"; };
+		B337ABA42A9B41D100989C29 /* Line.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Line.swift; sourceTree = "<group>"; };
 		B3EA49912A96708E00E9437C /* ButtonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -62,6 +64,7 @@
 		B312472F2A8E05B1009E59D7 /* canvas */ = {
 			isa = PBXGroup;
 			children = (
+				B337ABA32A9B41A600989C29 /* Models */,
 				B3270EE82A90B489008FE708 /* views */,
 				B3270EE72A90B471008FE708 /* controller */,
 				B31247302A8E05B1009E59D7 /* AppDelegate.swift */,
@@ -90,6 +93,14 @@
 				B3270EE52A90B40D008FE708 /* canvas.swift */,
 			);
 			path = views;
+			sourceTree = "<group>";
+		};
+		B337ABA32A9B41A600989C29 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				B337ABA42A9B41D100989C29 /* Line.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -168,6 +179,7 @@
 				B31247332A8E05B1009E59D7 /* SceneDelegate.swift in Sources */,
 				B312473B2A8E05B1009E59D7 /* canvas.xcdatamodeld in Sources */,
 				B3EA49922A96708E00E9437C /* ButtonViewController.swift in Sources */,
+				B337ABA52A9B41D100989C29 /* Line.swift in Sources */,
 				B3270EE62A90B40D008FE708 /* canvas.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
